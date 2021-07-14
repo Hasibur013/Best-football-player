@@ -143,18 +143,31 @@
  bottom part 
  --------------------------*/
 .bottom-logo{
-   padding-left: 30%;
-   margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
+
  .bottom-logo-png{
      width: 483px;
      height: 110px;
  }
 
- .social-icon i{
-     padding: 0 10px;
-     border: 1px solid #fff;
-     border-radius: 50%;
+ .social-icon{
+     margin-top: 30px;
+     margin-bottom: 20px;
  }
+
+ .social-icon i{
+     background-color: #7f8c8d;
+    color: #fff;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 20px;
+    border: 1px solid rgb(248, 246, 246);
+    border-radius: 50%;
+ }
+
 
 
