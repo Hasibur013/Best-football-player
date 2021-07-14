@@ -25,3 +25,97 @@
      list-style: none;
  }
 
+  /*----------------------------- 
+          Header Style
+ ------------------------------*/
+ header{
+    background-color: #2D25A0;
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 70px;
+
+}
+
+.header-items{
+    width: 1160px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+.menu ul{
+    display: flex;
+}
+.menu li{
+   padding-right: 20px;
+}
+
+.menu ul li a{
+    color: #fff;
+    font-size: ;
+}
+.login-panel p,  .button a{
+    padding: 10px 24px 10px 24px;
+    background-color: #E02C6D;
+    color: #fff;
+}
+
+.header-bottom{
+    display: flex;
+    width: 1160px;
+    margin: 67px auto 0;
+    padding-bottom: 100px;
+}
+.header-bottom .banner{
+    width: 556px;
+    height: 438px;
+}
+
+.header-text h1{
+    font-size: 64px;
+    color: #fff;
+}
+.button .fas{
+    padding-left: 5px;
+}
+.header-text{
+    padding-left: 50px;
+}
+
+
+
+/*-------------------------------
+      main part style 
+---------------------------*/
+
+.container{
+   width: 80%;
+   margin: 0 auto;
+}
+.players{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-row-gap: 27px;
+   grid-column-gap: 30px;
+   margin-bottom: 80px;
+}
+
+.player{
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   padding: 15px;
+   border-radius: 10px;
+}
+
+/*--------------------------------
+         top3 player 
+---------------------------------*/
+
+.top-players > h1{
+   text-align: center;
+   color: brown;
+   padding: 30px 0;
+   font-size: 25px;
+}
+
