@@ -45,6 +45,7 @@
 }
 .header-bottom{
     display: flex;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -185,8 +186,10 @@
        .container{
            width: 100%;
            box-sizing: border-box;
-           margin: auto 15px;
 
+       }
+       .banner img{
+           width: 80%;
        }
        .header-bottom{
            flex-direction: column;
