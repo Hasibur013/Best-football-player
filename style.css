@@ -26,6 +26,16 @@
   /*----------------------------- 
           Header Style
  ------------------------------*/
+ @keyframes wave {
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  header:hover .container .banner img {
+    animation: wave 3s ease-in-out infinite;
+  }
+
  header{
     background-color: #2D25A0;
     width: 100%;
@@ -40,6 +50,9 @@
     background-color: #E02C6D;
     color: #fff;
 }
+.header-text .button a:hover {
+    background-color: #f3085e;
+  }
 .login-panel .fas{
     padding-right: 15px;
 }
@@ -53,6 +66,7 @@
     margin-top: 42px;
     padding-bottom: 100px;
 }
+
 .header-bottom .banner{
     margin-top: 50px;
 }
