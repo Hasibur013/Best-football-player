@@ -169,5 +169,38 @@
     border-radius: 50%;
  }
 
+ /*--------
+  today match style 
+  ----------*/
 
+  .today-match{
+      background-color: #95a5a6;
+      display: flex;
+      justify-content: space-between;
+      padding: 50px 20px;
+      border-radius: 10px;
+      margin-bottom: 100px;
+  }
+.match-1 h1{
+    color: #2980b9;
+}
+  .match-1 h3{
+      padding-left: 90px;
+      padding-top: 20px;
+  }
+
+
+
+  /*------------------------------------
+             responsive for tablet 
+   -------------------------------------*/
+
+   @media (max-width: 991px){
+       
+        .header-items{
+            width: 900px;
+            height: 44px;
+            
+        }
+   }
 
