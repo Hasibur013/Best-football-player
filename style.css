@@ -138,3 +138,23 @@
  .highlights p{
      padding: 20px 0;
  }
+
+ /* ---------------------
+ bottom part 
+ --------------------------*/
+.bottom-logo{
+   padding-left: 30%;
+   margin-bottom: 200px;
+}
+ .bottom-logo-png{
+     width: 483px;
+     height: 110px;
+ }
+
+ .social-icon i{
+     padding: 0 10px;
+     border: 1px solid #fff;
+     border-radius: 50%;
+ }
+
+
