@@ -36,15 +36,6 @@
 
 }
 
-.header-items{
-    width: 1160px;
-    height: 44px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 42px;
-}
 
 .login-panel p,  .button a{
     padding: 10px 24px 10px 24px;
@@ -56,18 +47,24 @@
 }
 .header-bottom{
     display: flex;
-    width: 1160px;
-    margin: 67px auto 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 42px;
     padding-bottom: 100px;
 }
 .header-bottom .banner{
+    margin-top: 50px;
+}
+.header-bottom .banner img{
     width: 556px;
-    height: 438px;
 }
 
 .header-text h1{
     font-size: 64px;
     color: #fff;
+    margin-bottom: 30px;
 }
 .button .fas{
     padding-left: 5px;
@@ -83,7 +80,7 @@
 ---------------------------*/
 
 .container{
-   width: 80%;
+   width: 1050px;
    margin: 0 auto;
 }
 .players{
@@ -186,12 +183,17 @@
    -------------------------------------*/
 
    @media (max-width: 668px){
-       
-        .header-items{
-            width: 900px;
-            height: 44px;
-            
-        }
+    
+       .container{
+           width: 100%;
+           box-sizing: border-box;
+           margin: auto 15px;
+
+       }
+       .header-bottom{
+           flex-direction: column;
+           align-items: center;
+       }
         .players{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
